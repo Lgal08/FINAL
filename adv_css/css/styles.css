@@ -1,0 +1,75 @@
+body{
+    background-color: darksalmon;
+}
+#container {
+    background-color: antiquewhite;
+    width: 65%;
+    margin: 20px auto;
+    border: 2px solid brown;
+    padding: 20px;
+}
+
+#banner{
+    width: 100%;
+}
+#colone{
+    width: 50%;
+    border: 2px solid rgb(190, 78, 25);
+    margin: 20px;
+    padding: 20px;
+}
+#coltwo{
+    width: 50%;
+    border: 2px solid rgb(190, 78, 25);
+    margin: 20px;
+    padding: 20px;
+}
+.heading_style {
+    text-shadow: 2px 1px 2px #42290d;
+}
+.movie_post {
+    width: 40%;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+nav{
+    text-align: center;
+    margin: 20px 0;
+    background-color: firebrick;
+    padding: 5px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+nav li a {
+display: block;
+color: antiquewhite;
+font-size: 24px;
+font-weight: bold;
+text-decoration: none;
+margin: 0 20px;
+width: 125px;
+height: 40px;
+line-height: 40px;
+}
+
+nav a:hover {
+    background-color: burlywood;
+    color: brown;
+}
+#twocol{
+    display: flex;
+}
+
+h1,h2,h3, footer {
+    text-align: center;
+}
